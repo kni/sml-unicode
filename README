@@ -1,0 +1,16 @@
+Unicode and UTF8 for Standard ML
+********************************
+
+ structure Utf8 :
+ sig
+  val decode  : string -> word list
+  val encode  : word list -> string
+ end
+ 
+ structure Unicode :
+ sig
+   val toCaseFolded : word list -> word list
+   val toLower      : word list -> word list
+   val toUpper      : word list -> word list
+   val toTitle      : word list -> word list
+ end
