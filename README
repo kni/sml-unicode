@@ -14,3 +14,9 @@ Unicode and UTF8 for Standard ML
    val toUpper      : word list -> word list
    val toTitle      : word list -> word list
  end
+
+
+See t.sml for example and tests:
+
+ mlton t.mlb
+ poly --script t.mlp
