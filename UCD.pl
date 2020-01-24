@@ -13,7 +13,7 @@ my $dir = getcwd;
 
 binmode STDOUT, ":utf8";
 
-chdir '/usr/local/lib/perl5/5.26/unicore' or die $!;
+chdir '/usr/local/lib/perl5/5.30/unicore' or die "Set dir to perl unicore lib";
 
 my %LOWER = Unicode::UCD::_read_table("To/Lc.pl", "use_hash");
 my %UPPER = Unicode::UCD::_read_table("To/Uc.pl", "use_hash");
