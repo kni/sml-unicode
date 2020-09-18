@@ -21,7 +21,7 @@ my %TITLE = Unicode::UCD::_read_table("To/Tc.pl", "use_hash");
 
 
 
-# For MLton - pattern matching, and for PolyML optimazed if-then-else.
+# For MLton - pattern matching, and for PolyML optimised if-then-else.
 my $CASEFOLD = Unicode::UCD::all_casefolds();
 
 
