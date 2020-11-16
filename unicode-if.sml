@@ -1185,6 +1185,10 @@ fun fc w ws =
   if w = 0wxa7c4 then 0wxa794::ws else
   if w = 0wxa7c5 then 0wx282::ws else
   if w = 0wxa7c6 then 0wx1d8e::ws else
+  if w = 0wxa7c7 then 0wxa7c8::ws else
+  if w = 0wxa7c9 then 0wxa7ca::ws else
+  if w < 0wxa7f5 then w::ws else (* ***** *)
+  if w = 0wxa7f5 then 0wxa7f6::ws else
   if w < 0wxab70 then w::ws else (* ***** *)
   if w = 0wxab70 then 0wx13a0::ws else
   if w = 0wxab71 then 0wx13a1::ws else
@@ -2708,6 +2712,10 @@ fun lc w =
   if w = 0wxa7c4 then 0wxa794 else
   if w = 0wxa7c5 then 0wx282 else
   if w = 0wxa7c6 then 0wx1d8e else
+  if w = 0wxa7c7 then 0wxa7c8 else
+  if w = 0wxa7c9 then 0wxa7ca else
+  if w < 0wxa7f5 then w else (* ***** *)
+  if w = 0wxa7f5 then 0wxa7f6 else
   if w < 0wxff21 then w else (* ***** *)
   if w = 0wxff21 then 0wxff41 else
   if w = 0wxff22 then 0wxff42 else
@@ -4077,6 +4085,10 @@ fun uc w =
   if w = 0wxa7bd then 0wxa7bc else
   if w = 0wxa7bf then 0wxa7be else
   if w = 0wxa7c3 then 0wxa7c2 else
+  if w = 0wxa7c8 then 0wxa7c7 else
+  if w = 0wxa7ca then 0wxa7c9 else
+  if w < 0wxa7f6 then w else (* ***** *)
+  if w = 0wxa7f6 then 0wxa7f5 else
   if w < 0wxab53 then w else (* ***** *)
   if w = 0wxab53 then 0wxa7b3 else
   if w < 0wxab70 then w else (* ***** *)
@@ -5482,6 +5494,10 @@ fun tc w =
   if w = 0wxa7bd then 0wxa7bc else
   if w = 0wxa7bf then 0wxa7be else
   if w = 0wxa7c3 then 0wxa7c2 else
+  if w = 0wxa7c8 then 0wxa7c7 else
+  if w = 0wxa7ca then 0wxa7c9 else
+  if w < 0wxa7f6 then w else (* ***** *)
+  if w = 0wxa7f6 then 0wxa7f5 else
   if w < 0wxab53 then w else (* ***** *)
   if w = 0wxab53 then 0wxa7b3 else
   if w < 0wxab70 then w else (* ***** *)
